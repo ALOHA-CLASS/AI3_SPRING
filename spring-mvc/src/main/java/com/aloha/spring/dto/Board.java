@@ -1,5 +1,8 @@
 package com.aloha.spring.dto;
 import java.util.Date;
+import java.util.List;
+
+import org.springframework.web.multipart.MultipartFile;
 
 import lombok.Data;
 
@@ -13,6 +16,11 @@ public class Board {
 	private String content;
 	private Date createdAt;
 	private Date updatedAt;
+	
+	// 파일 정보
+	// MultipartFile[] fileList;
+	List<MultipartFile> fileList;
+	
 	
 	public Board() {
 		
