@@ -13,7 +13,14 @@
 <body>
 	<h1>Spring x MyBatis</h1>
 	<h3>게시판 프로젝트</h3>
-	<a href="${ root }/board/list">게시판</a>
+	<a href="${ root }/board/list">게시판</a>  <br>
+	<a href="${ root }/join">회원가입</a>
 	
 </body>
 </html>
+
+
+
+
+
+
